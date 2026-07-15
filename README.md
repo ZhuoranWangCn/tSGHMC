@@ -1,4 +1,5 @@
 # The Tamed Stochastic Gradient Hamiltonian Monte Carlo
+This repository is the official implementation of "The Tamed Stochastic Gradient Hamiltonian Monte Carlo", which can be found at
 
 Authors: Zhuoran Wang and Ying Zhang
 
