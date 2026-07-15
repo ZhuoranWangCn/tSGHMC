@@ -44,10 +44,10 @@ class TamedSGHMC:
 		noise_scale = np.sqrt(2.0 * self.lr * self.gamma / self.beta)
 		xi = rng.normal(0, 1, size=theta.shape)
 
-		vol_next = vol - self.lr * (self.gamma * vol + self.H_gamma(theta, x)) + noise_scale * xi
-		theta_next = theta + self.lr * vol_next
+		vol = vol - self.lr * (self.gamma * vol + self.H_gamma(theta, x)) + noise_scale * xi
+		theta = theta + self.lr * vol
 
-		return theta_next, vol_next
+		return theta, vol
 
 	def simulate(self, theta0, vol0, xs, n_steps=None, rng=None):
 		# theta0: initial position
