@@ -1,5 +1,8 @@
-# Non-asymptotic Estimates for Tamed SGHMC for Stochastic Optimization Problem
-
+# The Tamed Stochastic Gradient Hamiltonian Monte Carlo
+---
+Authors: Zhuoran Wang and Ying Zhang
+Abstract: In this paper, we propose a novel tamed stochastic gradient Hamiltonian Monte Carlo (tSGHMC) algorithm for sampling and stochastic optimization, which is the first such variant of SGHMC that can be applied to problems with superlinearly growing stochastic gradients. Under a certain continuity in average condition and a strong convexity condition, we establish a non-asymptotic error bound in Wasserstein-2 distance for tSGHMC, with a convergence rate of $1/4$. We apply tSGHMC to various examples, including a newsvendor problem and a Conditional Value-at-Risk (CVaR) minimization problem, using synthetic and real-world datasets. Numerical results support our theoretical findings and illustrate the superior performance of tSGHMC over its first-order counterpart, namely, the tamed unadjusted stochastic Langevin algorithm (TUSLA).
+---
 ## File Description
 + `Algorithms.py` contains the implementation of the **tSGHMC** algorithm used in our paper and the baseline **TUSLA** algorithm used for comparison.
 + `Example1_Sampling.ipynb` contains the code for Subsection 3.1 of the paper, *Posterior Sampling for Penalized Logistic Regression*.
