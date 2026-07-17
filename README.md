@@ -1,5 +1,5 @@
 # Tamed Stochastic Gradient Hamiltonian Monte Carlo
-Experiment codes for Paper: "Tamed Stochastic Gradient Hamiltonian Monte Carlo", which can be found at
+Experiment codes for Paper: "Tamed Stochastic Gradient Hamiltonian Monte Carlo", which can be found at https://arxiv.org/abs/2607.14862
 
 Authors: Zhuoran Wang and Ying Zhang
 
